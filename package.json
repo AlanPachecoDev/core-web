@@ -1,0 +1,33 @@
+{
+  "name": "interfaz-crud-usuarios",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.2.96",
+    "@mdi/js": "^7.2.96",
+    "axios": "^1.6.2",
+    "element-plus": "^2.3.4",
+    "firebase": "^9.19.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.3",
+    "pinia": "^2.0.33",
+    "vue": "^3.2.47",
+    "vue-jwt-decode": "^0.1.0",
+    "vue-router": "^4.1.6",
+    "vue-sweetalert2": "^5.0.5",
+    "vuetify": "^3.1.12"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.5",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "vite": "^4.2.1"
+  }
+}
